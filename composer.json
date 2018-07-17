@@ -1,0 +1,24 @@
+{
+  "name": "mathiasd88/email-disponibility-validator",
+  "description": "A validator for disposable and temporary email addresses.",
+  "minimum-stability": "stable",
+  "version": "0.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mathías Donoso",
+      "email": "mathiasd88@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MValidator\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "scripts": {
+    "tests": "vendor/bin/phpunit --bootstrap vendor/autoload.php tests/ --colors"
+  }
+}
