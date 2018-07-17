@@ -2,7 +2,7 @@
   "name": "mathiasd88/email-disponibility-validator",
   "description": "A validator for disposable and temporary email addresses.",
   "minimum-stability": "stable",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "authors": [
     {
